@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina2-Formulario</title>
+    <link rel="stylesheet" type="text/css" href="../projeto/Style.css" />
+</head>
+<body>
+    <!--Formulário-->
+    <h2 align="center">Formulário</h2>
+    <form action="bancodedados.sql" method="post">
+         <p>Nome:  <input type="text" name="Nome"
+            placeholder="Insira seu nome" /></p>
+         <p>Senha:  <input type="password" name="Senha"
+         maxlength="6"/> <sub>A senha pode ter até 6 caracteres</sub> </p>
+         <p>Email: <input type="email" name="Email"></p>
+         <p>Número:  <input type="tel" name="Telefone"
+           maxlength="14" placeholder="(00)90000-0000"/></p>
+         <p>Data de Nascimento: <input type="date" name="data"/></p>
+         <p>Tamanho da camisa: <input type="number" name="a"/></p>
+    <!--Estrutura do valor de sexo-->     
+         <p> Sexo:
+         <input type="radio" name="sexo" value="1"/> Feminino
+         <input type="radio" name="sexo" value="2"/> Masculino
+         <input type="radio" name="sexo" value="3"/> Todes
+        </p>
+    <!--Estrutura select-->
+        <p>
+         <select name="TS">
+            <option></option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>   
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+         </select>
+        </p>
+        <p>
+            <input type="checkbox" name="Termos" value=""/>
+            Aceito ingressar nesta seita!!!
+        </p>
+        <br />
+        <br />
+         <input type="reset" value="Limpar"/>
+         <input type="submit" value="Enviar"/>
+    <!--Formulário com caixas-->
+         <fieldset>
+             <legend>Dados Pessoais</legend>
+             <br><label>Nome:  <input type="text" name="Nome"
+                placeholder="Insira seu nome"></label><br />
+             <br><label>Data de Nascimento: <input type="date" name="data"/></label><br />
+         </fieldset>
+    </form>
+
+
+</body>
+</html>
