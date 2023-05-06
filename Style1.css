@@ -1,3 +1,6 @@
+/*Importacao de Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+font-family: 'Bruno Ace SC', cursive;
 * {
     margin: 0 auto;
     padding: 0;
@@ -21,6 +24,7 @@
     display: inline-block;
     text-decoration: none;
     transition: background.4s;
+    
 }
 #menu ul li a:hover {
     background-color: yellow;
@@ -30,4 +34,22 @@
 }
 body {
     background-color: blue;
+}   
+/*Estrutura do Footer*/
+.rodape {
+  background-color: rgb(104, 105, 104);
+  clear: both;
+  padding: 30px;
+  color: darkslategray;
+  font-size: 15px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-family: 'Bruno Ace SC', cursive;
+}
+.icones li {
+ display: inline-block;
+ float: right;
+ width: 100px;
+ height: 30px;
 }
